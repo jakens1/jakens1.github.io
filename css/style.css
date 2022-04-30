@@ -1,13 +1,23 @@
 * {
     margin: 0;
     border: 0;
+    width:100%;
+}
+
+body {
+    width:100%;
+    height:100%;
+    background-image: url("pexels-aleksandar-pasaric-2338113.jpg");
+    background-color: #CCCCCC;
 }
 
 .nav-bar-container
 {
+    width:100%;
     align-content: right;
 }
 .nav-bar {
+    width:100%;
     background-color:gray;
 }
 .menu-item {
