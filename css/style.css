@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    border: 0;
+}
+
+
+.nav-bar {
+    background-color:gray;
+}
+.menu-item {
+    background-color: whitesmoke;
+}
