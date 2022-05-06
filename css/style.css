@@ -10,15 +10,13 @@
 }
 
 body {
-    height: 100%;
-    background-size:100%;
-    background-position:center;
+    /*background-position:center;
     padding:0;
-    margin: 0;
+    margin: 0;*/
     background-color: #CCCCCC;
     background-image: url("../images/pexels-aleksandar-pasaric-2338113.jpg");
     background-repeat:no-repeat;
-    
+    background-position: center 0;
 }
 
 
@@ -26,18 +24,29 @@ body {
 
     .article {
         position:relative;
-        left:30vw;
+        left:21vw;
         width:50vw;
         display:inline-block;
         color:white;
         place-items: center;
-        border: solid 2px greenyellow;
+        border: solid 2px lightgray;
+        border-radius: 15px;
         background-color: rgba(0,0,0, 0.6);
+        padding:1.5%;
+        margin:25px;
     }
 
 }
 
+@media screen and (max-width:1000px)
+{
 
+}
+
+.article .headline :hover
+{
+    box-shadow: 2px;
+}
 
 
 
@@ -48,19 +57,35 @@ body {
     color:blanchedalmond;
 }
 
-.nav-bar-container
-{
-    width:100%;
-    align-content: right;
-}
-.nav-bar {
-    width:100%;
+
+.link {
+    width:fit-content;
     background-color:gray;
+    padding:3px;
+    margin:20px;
+    visibility:hidden;
 }
+
+#menu-button {
+    width:32px;
+    height:32px;
+}
+.menu-button
+{
+    width:32px;
+    height:32px;
+}
+
 .menu-item {
     text-decoration: none;
     display:inline;
     background-color: whitesmoke;
+}
+
+.nav-bar {
+    position:absolute;
+    top:30px;
+
 }
 
 a {
